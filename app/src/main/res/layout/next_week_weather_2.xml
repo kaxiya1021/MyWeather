@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- 格子1 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- 日期 -->
+        <TextView
+            android:id="@+id/date_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date 4"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 天气图标 -->
+        <ImageView
+            android:id="@+id/weather_icon_4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/biz_plugin_weather_baoxue"
+            android:contentDescription="Weather Icon"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 温度 -->
+        <TextView
+            android:id="@+id/temperature_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <!-- 其他天气信息，如风速、湿度等 -->
+        <!-- 你可以根据需要添加更多的信息 -->
+
+    </LinearLayout>
+
+    <!-- 格子2 -->
+    <!-- 格子1 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- 日期 -->
+        <TextView
+            android:id="@+id/date_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date 5"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 天气图标 -->
+        <ImageView
+            android:id="@+id/weather_icon_5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/biz_plugin_weather_baoxue"
+            android:contentDescription="Weather Icon"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 温度 -->
+        <TextView
+            android:id="@+id/temperature_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <!-- 其他天气信息，如风速、湿度等 -->
+        <!-- 你可以根据需要添加更多的信息 -->
+
+    </LinearLayout>
+
+    <!-- 格子3 -->
+    <!-- 格子1 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- 日期 -->
+        <TextView
+            android:id="@+id/date_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date 6"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 天气图标 -->
+        <ImageView
+            android:id="@+id/weather_icon_6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/biz_plugin_weather_baoxue"
+            android:contentDescription="Weather Icon"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 温度 -->
+        <TextView
+            android:id="@+id/temperature_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <!-- 其他天气信息，如风速、湿度等 -->
+        <!-- 你可以根据需要添加更多的信息 -->
+    </LinearLayout>
+
+</LinearLayout>

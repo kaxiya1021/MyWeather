@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string name="title">Real-time Weather</string>
+    <string name="pollution">Severe Pollution</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="time">Time</string>
+    <string name="weather">Weather</string>
+    <string name="current_city">Current City</string>
+    <string name="BeiJing">BeiJing</string>
+    <string name="ShangHai">ShangHai</string>
+    <string name="Guangzhou">Guangzhou</string>
+    <string name="ShenZhen">ShenZhen</string>
+    <string name="hint">Search nationwide cities(English)</string>
+</resources>

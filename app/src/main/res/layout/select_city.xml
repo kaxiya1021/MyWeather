@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="#5091af" >
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/current_city"
+            android:textColor="#ffffffff"
+            android:textSize="20.0dip" />
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/base_action_bar_back_normal"
+            />
+        <ImageView
+            android:layout_width="1.0dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/title_back"
+            android:background="#A71717"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_below="@id/title"
+        android:hint="@string/hint"
+        android:drawableLeft="@drawable/magnifying_glass"
+        android:drawablePadding="8.0dip"
+        android:layout_margin="10dip"
+        android:paddingBottom="8.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="30.0dip"
+        android:paddingTop="8.0dip"
+        android:maxLines="1"
+        android:background="@drawable/contact_search_box_edittext_keyword_background"
+        android:textColor="#ff000000"
+        android:textColorHint="#ffcccccc"
+        android:textSize="15.0sp"/>
+
+    <ListView
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_edit">
+    </ListView>
+</RelativeLayout>
